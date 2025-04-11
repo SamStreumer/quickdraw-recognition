@@ -1,26 +1,30 @@
-Quick Draw Recognition - Neural Network Project
-Show Image
-Overview
+# Quick Draw Recognition - Neural Network Project
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pygame](https://img.shields.io/badge/pygame-%23003551.svg?style=flat)](https://www.pygame.org/)
+
+## Overview
 This project implements a neural network from scratch to recognize hand-drawn sketches, inspired by Google's Quick Draw game. The neural network uses linear algebra concepts (matrix operations, vector transformations) to classify drawings into various categories like "apple," "car," "cat," etc.
-Features
 
-Neural Network Implementation: Built entirely from scratch using NumPy, without relying on deep learning frameworks
-Interactive Drawing Interface: Real-time recognition of drawings with probability scores
-Drawing Prompts: Challenge mode with random drawing prompts and a timer
-Visualization Tools: Training curves, confusion matrices, and sample predictions
-Customization Options: Adjustable neural network architecture and training parameters
+## Features
+- **Neural Network Implementation**: Built entirely from scratch using NumPy, without relying on deep learning frameworks
+- **Interactive Drawing Interface**: Real-time recognition of drawings with probability scores
+- **Drawing Prompts**: Challenge mode with random drawing prompts
+- **Visualization Tools**: Training curves, confusion matrices, and sample predictions
+- **Customization Options**: Adjustable neural network architecture and training parameters
 
-Educational Value
+## Educational Value
 This project demonstrates several key concepts in linear algebra and machine learning:
+- Vector and matrix operations in neural networks
+- Linear transformations between vector spaces
+- Gradient descent optimization
+- Forward and backward propagation
+- Activation functions (ReLU, Softmax)
+- Loss function calculation and minimization
 
-Vector and matrix operations in neural networks
-Linear transformations between vector spaces
-Gradient descent optimization
-Forward and backward propagation
-Activation functions (ReLU, Softmax)
-Loss function calculation and minimization
-
-Project Structure
+## Project Structure
 quickdraw-recognition/
 ├── data/               # Dataset storage
 ├── models/             # Trained model weights
@@ -29,7 +33,7 @@ quickdraw-recognition/
 │   ├── app.py          # Interactive drawing application
 │   ├── data_utils.py   # Data loading and preprocessing utilities
 │   ├── model.py        # Neural network implementation
-│   └── __init__.py     # Python package initialization
+│   └── init.py     # Python package initialization
 ├── .gitignore          # Git ignore file
 ├── download_data.py    # Script to download the dataset
 ├── LICENSE             # MIT license
@@ -37,17 +41,18 @@ quickdraw-recognition/
 ├── README.md           # Project documentation
 ├── requirements.txt    # Dependencies list
 └── train_model.py      # Script for model training
-Installation
-Prerequisites
 
-Python 3.8+
-pip package manager
+## Installation
 
-Setup
+### Prerequisites
+- Python 3.8+
+- pip package manager
 
-Clone the repository:
-bashgit clone https://github.com/your-username/quickdraw-recognition.git
-cd quickdraw-recognition
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/quickdraw-recognition.git
+   cd quickdraw-recognition
 
 Install dependencies:
 bashpip install -r requirements.txt
@@ -139,4 +144,4 @@ Google's Quick Draw dataset: https://quickdraw.withgoogle.com/data
 The original Quick Draw game: https://quickdraw.withgoogle.com/
 
 
-Note: This project was developed independently without using deep learning frameworks to better understand the underlying mathematics of neural networks.RetryClaude does not have internet access. Links provided may not be accurate or up to date.Claude can make mistakes. Please double-check responses.
+Note: This project was developed independently without using deep learning frameworks to better understand the underlying mathematics of neural networks.
