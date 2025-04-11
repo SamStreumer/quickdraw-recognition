@@ -56,17 +56,14 @@ pip package manager
 Setup
 
 Clone the repository:
-bashgit clone https://github.com/your-username/quickdraw-recognition.git
+git clone https://github.com/your-username/quickdraw-recognition.git
 cd quickdraw-recognition
-
 Install dependencies:
-bashpip install -r requirements.txt
-
+pip install -r requirements.txt
 Download the dataset:
-bashpython download_data.py
-
+python download_data.py
 Train the model (or use pre-trained weights):
-bashpython train_model.py
+python train_model.py
 
 
 Usage
