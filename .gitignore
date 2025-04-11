@@ -1,4 +1,4 @@
-# Data files
+!models/quickdraw_model.npz# Data files
 data/*.npy
 data/*.npz
 data/*.csv
