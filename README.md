@@ -15,26 +15,49 @@ This project implements a neural network from scratch to recognize hand-drawn sk
 - **Visualization Tools**: Training curves, confusion matrices, and sample predictions
 - **Customization Options**: Adjustable neural network architecture and training parameters
 
-## Educational Value
-This project demonstrates several key concepts in linear algebra and machine learning:
-- Vector and matrix operations in neural networks
-- Linear transformations between vector spaces
-- Gradient descent optimization
-- Forward and backward propagation
-- Activation functions (ReLU, Softmax)
-- Loss function calculation and minimization
+## Quick Start (Play Immediately)
 
-## Installation
-
-### Prerequisites
-- Python 3.8+
-- pip package manager
-
-### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quickdraw-recognition.git
+   git clone https://github.com/SamStreumer/quickdraw-recognition.git
    cd quickdraw-recognition
+
+Install dependencies:
+bashpip install -r requirements.txt
+
+Run the application with the pre-trained model:
+bashpython main.py --categories apple car cat dog house
+
+Use the left mouse button to draw, right mouse button to erase, and see what the neural network thinks you're drawing!
+
+Examples
+Here are some examples of the application in action:
+![Drawing Example 1](screenshots/quickdraw_20250411_175047.png)
+![Drawing Example 2](screenshots/quickdraw_20250411_175117.png)
+![Drawing Example 3](screenshots/quickdraw_20250411_175153.png)
+
+
+Educational Value
+This project demonstrates several key concepts in linear algebra and machine learning:
+
+Vector and matrix operations in neural networks
+Linear transformations between vector spaces
+Gradient descent optimization
+Forward and backward propagation
+Activation functions (ReLU, Softmax)
+Loss function calculation and minimization
+
+Installation
+Prerequisites
+
+Python 3.8+
+pip package manager
+
+Setup
+
+Clone the repository:
+bashgit clone https://github.com/your-username/quickdraw-recognition.git
+cd quickdraw-recognition
 
 Install dependencies:
 bashpip install -r requirements.txt
@@ -72,24 +95,16 @@ Output layer: 10-20 neurons (one per category) with Softmax activation
 
 Mathematical Foundation
 The core operations in the neural network are:
-
 Forward propagation:
-
 Z1 = X·W1 + b1
 A1 = ReLU(Z1)
 Z2 = A1·W2 + b2
 A2 = ReLU(Z2)
 Z3 = A2·W3 + b3
 A3 = Softmax(Z3)
-
-
 Backward propagation:
-
 Compute gradients of the loss with respect to all parameters
 Update weights and biases using gradient descent
-
-
-
 Dataset
 The project uses the Google Quick Draw dataset, which contains millions of drawings across hundreds of categories. Each drawing is represented as a 28×28 grayscale image.
 Advanced Usage
@@ -126,4 +141,3 @@ Google's Quick Draw dataset: https://quickdraw.withgoogle.com/data
 The original Quick Draw game: https://quickdraw.withgoogle.com/
 
 Note: This project was developed independently without using deep learning frameworks to better understand the underlying mathematics of neural networks.
-
