@@ -1,3 +1,6 @@
+!screenshots/quickdraw_20250411_175047.png
+!screenshots/quickdraw_20250411_175117.png
+!screenshots/quickdraw_20250411_175153.png
 !models/quickdraw_model.npz# Data files
 data/*.npy
 data/*.npz
