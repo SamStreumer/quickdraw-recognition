@@ -24,24 +24,6 @@ This project demonstrates several key concepts in linear algebra and machine lea
 - Activation functions (ReLU, Softmax)
 - Loss function calculation and minimization
 
-## Project Structure
-quickdraw-recognition/
-├── data/               # Dataset storage
-├── models/             # Trained model weights
-├── screenshots/        # Application screenshots
-├── src/
-│   ├── app.py          # Interactive drawing application
-│   ├── data_utils.py   # Data loading and preprocessing utilities
-│   ├── model.py        # Neural network implementation
-│   └── init.py     # Python package initialization
-├── .gitignore          # Git ignore file
-├── download_data.py    # Script to download the dataset
-├── LICENSE             # MIT license
-├── main.py             # Main application entry point
-├── README.md           # Project documentation
-├── requirements.txt    # Dependencies list
-└── train_model.py      # Script for model training
-
 ## Installation
 
 ### Prerequisites
@@ -143,5 +125,5 @@ Acknowledgments
 Google's Quick Draw dataset: https://quickdraw.withgoogle.com/data
 The original Quick Draw game: https://quickdraw.withgoogle.com/
 
-
 Note: This project was developed independently without using deep learning frameworks to better understand the underlying mathematics of neural networks.
+
