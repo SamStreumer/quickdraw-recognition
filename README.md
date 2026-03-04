@@ -152,7 +152,7 @@ python train_model.py --evaluate --model-path models/my_model.npz
 - Experiment with different --learning-rate values for optimal convergence
 
 ## Academic Context
-This project was developed as part of a Linear Algebra course to demonstrate practical applications of:
+This project was developed as an addon from part of a Linear Algebra course to demonstrate practical applications of:
 
 - Matrix multiplication
 - Vector spaces
