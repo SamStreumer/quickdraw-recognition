@@ -43,17 +43,6 @@ Here are some examples of the application in action:
 ![Drawing Example 2](screenshots/quickdraw_20250411_175117.png)
 ![Drawing Example 3](screenshots/quickdraw_20250411_175153.png)
 
-## Educational Value
-This project demonstrates several key concepts in linear algebra and machine learning:
-- Vector and matrix operations in neural networks
-- Linear transformations between vector spaces
-- Gradient descent optimization
-- Forward and backward propagation
-- Activation functions (ReLU, Softmax)
-- Loss function calculation and minimization
-
-## Installation
-
 ### Prerequisites
 - Python 3.8+
 - pip package manager
